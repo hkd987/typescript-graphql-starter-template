@@ -1,0 +1,1 @@
+# typescript grapql starter template
