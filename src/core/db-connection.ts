@@ -1,10 +1,15 @@
 import { Sequelize } from 'sequelize';
 
-const sequelize = new Sequelize({
+export const sequelize = new Sequelize({
     dialect: 'sqlite',
-    logging: true,
+    logging: (log) => console.log(log),
     storage: './database.sqlite'
 })
+
+export interface models {
+    sequelize: Sequelize
+    Sequelize: typeof Sequelize
+}
 
 export const models = {
     sequelize,
