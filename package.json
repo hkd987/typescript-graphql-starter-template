@@ -19,7 +19,7 @@
     "apollo-server": "^2.6.7",
     "graphql": "^14.4.0",
     "reflect-metadata": "^0.1.13",
-    "sequelize": "^5.9.0",
+    "sequelize": "^5.15.1",
     "sequelize-decorators": "^1.0.2",
     "type-graphql": "^0.17.4"
   },
