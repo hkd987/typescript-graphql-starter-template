@@ -16,7 +16,7 @@
     "typescript": "^3.5.2"
   },
   "dependencies": {
-    "apollo-server": "^2.6.7",
+    "apollo-server": "^2.25.3",
     "graphql": "^14.4.0",
     "reflect-metadata": "^0.1.13",
     "sequelize": "^5.9.0",
